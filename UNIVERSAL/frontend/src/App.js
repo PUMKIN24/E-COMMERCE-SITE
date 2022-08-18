@@ -38,12 +38,8 @@ function App() {
                         </div>
                     </div>
                     </div> 
-                    ))
-                }
-                
-               
-            </div>
-            
+                    ))}
+                </div>
         </main>
         <footer class="row center">
             All rights reserved
