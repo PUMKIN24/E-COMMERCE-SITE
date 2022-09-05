@@ -6,10 +6,10 @@ function App() {
   return (
     <BrowserRouter>
   
-    <div class="grid-container">
+    <div className="grid-container">
         <header className="row">
             <div>
-                <a class="brand" href="/">Universal</a>
+                <a className="brand" href="/">Universal</a>
             </div>
             <div>
                 <a href="/cart">Cart</a>
@@ -26,7 +26,7 @@ function App() {
           </Routes>
            
         </main>
-        <footer class="row center">All rights reserved</footer>
+        <footer className="row center">All rights reserved</footer>
       </div>
     </BrowserRouter>
   );
