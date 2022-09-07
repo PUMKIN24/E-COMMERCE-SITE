@@ -82,3 +82,5 @@ Add Redux to Home Screen
     8. const dispatch = useDispatch()
     9. useEffect(()=>dispatch({type: LOAD_PRODUCTS, payload: data})
     10. Add store to index.js
+
+    In HomeScreen.js the code that fetch product list data from backend is removed and used dispatch redux action is implemented.
